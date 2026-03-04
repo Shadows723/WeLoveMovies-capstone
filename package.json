@@ -15,7 +15,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && npx react-scripts start && src/backend-src/server.js",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && npx react-scripts start",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && npx react-scripts build",
     "test": "npx react-scripts test",
     "eject": "npx react-scripts eject"
